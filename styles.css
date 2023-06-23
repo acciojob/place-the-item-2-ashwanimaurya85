@@ -3,17 +3,17 @@
 .holder{
 	background-color: white;
 	display: flex;
-	height:400px;
 	flex-wrap: wrap;
-	
+	justify-content: center;
 }
 .a{
 	background-color: green;
-	
 	padding:12px;
-	width:50px;
+	width:60px;
 	height:50px;
-	
+	font-size:30px;
+	font-weight:100px;
+	text-align:left;
 }
 #b{
 
@@ -22,9 +22,9 @@ background-color: red;
 #c{
 
 background-color: blue;
-	padding:10px;
-	margin:10px;
-	
-	flex_flot: column;
+display: inline-block;
+	position:absolute;
+	bottom:533px;
+
 	
 }
